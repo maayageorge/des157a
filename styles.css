@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+h1{
+    font-family: Pinyon Script;
+    font-size: 52px;
+}
+main, h2, footer{
+    font-family: Didot, serif;
+    font-style: italic;
+}
+
+h1, h2, footer{
+    text-align: center;
+}
+
+#hero{
+    max-width: 100%;
+    height: auto;
+    
+
+}
