@@ -1,21 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 
+/* text styling */
 h1{
-    font-family: Pinyon Script;
+    font-family: "Press Start 2P";
     font-size: 52px;
+    margin-top: 1.2em;
 }
-main, h2, footer{
-    font-family: Didot, serif;
-    font-style: italic;
+main, footer{
+    font-family: "Pixelify Sans";
+    font-size: 1.2em;
+}
+
+h2{
+    font-family: "Pixelify Sans";
+    font-size: 1.8em;
+    color: #0032ff;
+}
+
+li a{
+    font-family: "Gabarito";
+    font-size: 0.9em;
 }
 
 h1, h2, footer{
     text-align: center;
 }
 
-#hero{
-    max-width: 100%;
-    height: auto;
-    
-
+address a{
+    text-decoration: none;
+    color: #FF34BA;
 }
+
+address a:hover{
+    color: rgb(14, 187, 199);
+}
+
+
+/* list styling */
+li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    color: #FF34BA;
+}
+
+
+/* banner styling */
+#banner{
+    margin: auto;
+    position: relative;
+    width: 70%; 
+    height: 70%; 
+    padding: 2px; 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; 
+}
+
+#b1:hover{
+    transform: rotate(720deg);
+    transition: all 5s ease-out;
+    cursor: pointer;
+}
+
+#b2:hover{
+    transform: rotate(720deg);
+    transition: all 5s ease-out;
+    cursor: pointer;
+}
+
+#b3:hover{
+    transform: rotate(720deg);
+    transition: all 5s ease-out;
+    cursor: pointer;
+}
+
+
+/* body styling */
+main{
+    margin: auto;
+    gap: 25px;
+    max-width: 80%;
+}
+
+body {
+    line-height: 1.5em;
+    animation: gradient 6s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+        background: linear-gradient(90deg, rgba(255,250,211,1) 0%, rgba(214,250,236,1) 50%, rgba(176,251, 255,1) 100%);    
+    }
+    50% {
+        background: linear-gradient(90deg, rgba(214,250,236,1) 0%, rgba(255,250,211,1), rgba(176,251,255,1) 100%);  
+    }
+    100% { 
+        background: linear-gradient(90deg, rgba(176,251,255,1) 0%, rgba(214,250,236,1) 50%, rgba(255,250,211,1));    
+    }
+  }
+  
+
+section{
+    background-color: white;
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border: solid 0.3em #0032ff; 
+    border-radius: 20px;
+}
+
+#bottom{
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+
+    main{
+        display: grid;
+        grid-template-areas:
+        "a a b b c c"            
+        }
+
+        .studios{
+            grid-area: a; 
+        }
+    
+        .RD{
+            grid-area: b;
+        }
+
+        .final{
+            grid-area: c;
+        }
+    }
