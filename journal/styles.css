@@ -1,0 +1,53 @@
+h1{
+    font-family: "Pinyon Script";
+    font-size: 52px;
+}
+
+h3{
+    font-family: "Pinyon Script";
+    font-size: 36px;
+}
+
+section h2, time{
+    font-family: "Didot";
+    font-style: italic;
+}
+
+section p{
+    font-family: "Didot";
+}
+
+h1, h3, footer{
+    text-align: center;
+}
+
+.entries{
+    margin: auto;
+    max-width: 60%;
+    padding: 25px; 
+    background-color: #FFDDF1;
+    border: #FF1DA4 solid 5px;
+    border-radius: 20px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.entries p a{
+    text-decoration: none;
+    color: #FF1DA4;
+}
+
+.entries p a:hover{
+    text-decoration: none;
+    color: #808080;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FF1DA4;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #FFDDF1;
+}
