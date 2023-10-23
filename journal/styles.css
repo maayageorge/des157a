@@ -21,13 +21,18 @@ h1, h3, footer{
     text-align: center;
 }
 
-.entries{
+article{
     margin: auto;
-    max-width: 60%;
-    padding: 25px; 
+    margin-bottom: 40px;
     background-color: #FFDDF1;
     border: #FF1DA4 solid 5px;
     border-radius: 20px;
+    padding: 25px; 
+}
+
+.entries{
+    margin: auto;
+    max-width: 60%;
     line-height: 1.5em;
     margin-bottom: 20px;
 }
