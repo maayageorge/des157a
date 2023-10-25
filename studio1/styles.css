@@ -4,6 +4,7 @@ body{
     font-family: "Patrick Hand";
     font-size: 20px;
     line-height: 1.6em;
+    overflow-x: hidden;
 }
 
 header{
