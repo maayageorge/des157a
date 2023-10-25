@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
+    <!-- javascript -->
+    <script src="script.js" defer></script> 
+    <title>Mad Libs</title>
+</head>
+
+<body>
+    <header>
+        <img id="cloud1" src="images/cloud.png" alt="cloud" width=460 height=210>
+        <img id="cloud2" src="images/cloud.png" alt="cloud" width=460 height=210>
+        <img id="cloud3" src="images/cloud.png" alt="cloud" width=460 height=210>
+        <h1>ʚ Misu's Picnic ɞ</h1>
+    </header>
+    
+    <main>
+        <section class="questions">
+            <h3>Instructions: Fill out the fields below and hit send to generate a Mad Libs story!</h3>
+            <form id="myform">
+                <label for="name1">⁺⋆˚ Provide a name:</label>
+                <input type="text" id="name1" required>
+                <label for="name2">⁺⋆˚ Provide another name:</label>
+                <input type="text" id="name2" required>
+                <label for="color">⁺⋆˚ Provide a color:</label>
+                <input type="text" id="color" required>
+                <label for="food1">⁺⋆˚ Provide a food item:</label>
+                <input type="text" id="food1" required>
+                <label for="food2">⁺⋆˚ Provide another food item:</label>
+                <input type="text" id="food2" required>
+                <label for="bev">⁺⋆˚ Provide a beverage:</label>
+                <input type="text" id="bev" required>
+                <label for="adj1">⁺⋆˚ Provide an adjective:</label>
+                <input type="text" id="adj1" required>
+                <label for="adj2">⁺⋆˚ Provide another adjective:</label>
+                <input type="text" id="adj2" required>
+            </form>
+        </section>  
+
+        <div id="sendbutton">
+            <input type="submit" id="send" value="SEND ≽^•⩊•^≼">
+        </div>
+
+    </main>
+
+    <footer>
+        <address>Contact Me: <a href="&#109;&#118;&#103;&#101;&#111;&#114;&#103;&#101;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">mvgeorge@ucdavis.edu</a></address>
+        <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+    </footer>
+
+</body>
+
+</html>
