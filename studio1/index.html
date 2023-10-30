@@ -27,7 +27,7 @@
     </header>
     
     <main>
-        <section class="questions">
+        <section id="questions">
             <h3>Instructions: Fill out the fields below and hit send to generate a Mad Libs story!</h3>
             <form id="myform">
                 <label for="name1">⁺⋆˚ Provide a name:</label>
@@ -46,11 +46,18 @@
                 <input type="text" id="adj1" required>
                 <label for="adj2">⁺⋆˚ Provide another adjective:</label>
                 <input type="text" id="adj2" required>
+                <div id="sendbutton">
+                    <input type="submit" id="send" value="SEND ≽^•⩊•^≼">
+                </div>
             </form>
         </section>  
 
-        <div id="sendbutton">
-            <input type="submit" id="send" value="SEND ≽^•⩊•^≼">
+        <div id="misuimg">
+            <img src="images/misu.png" alt="misu" width="400" height="450">
+        </div>
+
+        <div id="mystory">
+            <article id="madlib"></article>
         </div>
 
     </main>
