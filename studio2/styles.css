@@ -1,0 +1,63 @@
+h1{
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+body{
+    font-family: 'Cormorant';
+    background-image: url(images/everypic-bg.png);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+footer a:hover{
+    color: black;
+}
+
+.rectangle{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 15px;
+    height: 450px;
+    width: 800px;
+    margin: auto;
+}
+
+.right-arrow{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 45%;
+    left: 75%;
+}
+
+.left-arrow{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 45%;
+    right: 75%;
+}
