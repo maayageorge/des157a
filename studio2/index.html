@@ -24,12 +24,54 @@
     </header>
     
     <main>
-        <div class="rectangle"></div>
-        <input type="button" class="right-arrow" value="▶">
-        <input type="button" class="left-arrow" value="◀">
-        <div class="content">
-            
+        <div class="container">
+
+
+            <div class="instructions">
+                <h3>Click each item to learn more about some of my favorite pieces from my closet!</h3>
+            </div>
+
+            <div class="content">
+
+                <div class="dia">
+                     <img src="images/dia-top.JPEG" id="dia-top" alt="DIA top">
+                 </div>
+
+                 <div class="hysteric">
+                    <img src="images/hysteric-top.JPEG" id="hysteric-top" alt="Hysteric Glamour top">
+                </div>
+
+                <div class="bloomer">
+                    <img src="images/bloomer-shorts.JPEG" id="bloomer-shorts"  alt="bloomer shorts">
+                </div>
+                <div class = "fur">
+                    <img src="images/fur-shorts.JPEG" id="fur-shorts"  alt="fur shorts">
+                </div>  
+
+                <div class="viv">
+                    <img src="images/viv-necklace.JPEG" id="viv-necklace" alt="Vivienne Westwood necklace">
+                </div>
+
+                <div class="heavn">
+                    <img src="images/heavn-necklace.JPEG" id="heavn-necklace" alt="Heaven by Marc Jacobs necklace">
+                </div>
+
+            </div>
         </div>
+
+
+        <!--- overlay html -->
+        <div id="overlay" class="hidden">
+            <article>
+                <img src="#" id="pic" width="350" height="350">
+                <div id="info">
+                    <br><h2 id="item">Heading</h2>
+                    <p id="item-text">Text</p>
+                    <button class="close">⨉</button>
+                </div>
+            </article>
+        </div>
+
     </main>
 
     <footer>
