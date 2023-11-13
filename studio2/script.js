@@ -95,7 +95,7 @@
         event.preventDefault();
         document.querySelector('#overlay').className= 'showing';
         image.src = "images/bloomer-shorts.JPEG";
-        item.innerHTML = "Bloomer Shorts";
+        item.innerHTML = "⋆ ˚｡ Bloomer Shorts ⋆୨୧˚";
         itemtext.innerHTML = "These bloomers are probably the most versatile piece in my closet. They are perfect because they can be styled in so many different ways and they are very comfortable. I love lace and ruffles and black is my favorite color, so I was ecstatic when I found these online for a good bargain. While bloomers have historically been worn underneath skirts and dresses, nowadays people wear them on their own as shorts which is what I usually do.";
     });
 
@@ -103,7 +103,7 @@
         event.preventDefault();
         document.querySelector('#overlay').className= 'showing';
         image.src = "images/fur-shorts.JPEG";
-        item.innerHTML = "Fur-trimmed Shorts";
+        item.innerHTML = "˚ ༘ ⋆ Fur-trimmed Shorts ૮ • ﻌ - ა";
         itemtext.innerHTML = "These fur-trimmed shorts were hand-sewn by me over the summer. It was my first ever sewing project, and I had a lot of fun doing it! I was inspired by gyaru-slyle fur shorts. I was initially going to buy a pair, but all the ones I saw online were extremely overpriced so I decided to make them myself. I have made some more fur-trimmed shorts and skirts since but this one is my favorite out of all of them.";
     });
 
@@ -111,7 +111,7 @@
         event.preventDefault();
         document.querySelector('#overlay').className= 'showing';
         image.src = "images/viv-necklace.JPEG";
-        item.innerHTML = "Vivienne Westwood Necklace";
+        item.innerHTML = "₊‧°𐐪 3D Orb Necklace 𐑂°‧₊";
         itemtext.innerHTML = "This 3D orb necklace is from the late Vivienne Westwood, one of my favorite fashion designers. Her orb is an iconic symbol of her legacy, seen across many of her garments and jewelry. The star details embellishing the orb pendant, coupled with the bright colors and the distinctive box chain of the necklace make it such a unique piece.";
     });
 
@@ -119,7 +119,7 @@
         event.preventDefault();
         document.querySelector('#overlay').className= 'showing';
         image.src = "images/heavn-necklace.JPEG";
-        item.innerHTML = "Heaven by Marc Jacobs Necklace";
+        item.innerHTML = "‧₊˚ Hydnellum Necklace ⋆｡𖦹";
         itemtext.innerHTML = "This is the Hydnellum Necklace from the brand Heaven by Marc Jacobs. I got it when I went to LA and visited the Heaven store. I like this necklace because it looks like fungi or organic matter of some sort (hence the name). It is definitely a statement piece, and I don’t wear it that often because it is more difficult to style, however I still love it because it’s so unique. I adore all the little details like the crystal accents and the heart-shaped fastener.";
     });
 

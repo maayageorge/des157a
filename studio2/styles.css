@@ -70,13 +70,13 @@ footer a:hover{
 .content img{
     height: auto;
     position: relative; 
-    width: 100%; /* Ensures each image takes up the full width of its grid cell */
+    width: 100%; 
     display: block;
 
 }
 
 .content img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
 
 }
@@ -124,7 +124,7 @@ footer a:hover{
     box-sizing: border-box;
     padding: 20px;
     width: 50vw;
-    height: 80vh;
+    height: 60vh;
     position: absolute;
     top: 50%;
     left: 50%;
