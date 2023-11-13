@@ -78,7 +78,7 @@
         document.querySelector('#overlay').className= 'showing';
         image.src = "images/dia-top.JPEG";
         item.innerHTML = "✭ D.I.A T-Shirt ✭";
-        itemtext.innerHTML = "This t-shirt is one of my most-worn clothing items. I love it because it’s so comfortable and fits so well. It is from the brand D.I.A which one of my favorite brands. D.I.A specializes in gyaru fashion — gyaru being a Japanese subculture that was popular in the 90s and early 2000s. I draw a lot of inspiration from this subculture when it comes to my personal style. I bought it from Buyee, a Japanese proxy service that ships out secondhand clothing internationally from Japan. My favorite features of this t-shirt are the gold grommets in the back and the u-shaped neckline.";
+        itemtext.innerHTML = "This t-shirt is one of my most-worn clothing items. I love it because it’s so comfortable and fits so well. It is from the brand D.I.A which one of my favorite brands. D.I.A specializes in gyaru fashion — gyaru being a Japanese subculture that was popular in the 90s and early 2000s. I draw a lot of inspiration from this subculture when it comes to my personal style. I bought it from Buyee, a proxy service that ships out secondhand clothing internationally from Japan. My favorite features of this t-shirt are the gold grommets in the back and the u-shaped neckline.";
     });
 
 
