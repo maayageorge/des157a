@@ -5,7 +5,6 @@
     /* mouseover code*/
 
       const overlay = document.getElementById('overlay');
-      const pic = document.querySelector('#pic');
       const diatop = document.getElementById('dia-top');
       const hysterictop = document.getElementById('hysteric-top');
       const bloomershorts = document.getElementById('bloomer-shorts');
@@ -13,7 +12,7 @@
       const viv = document.getElementById('viv-necklace');
       const heavn = document.getElementById('heavn-necklace');
 
-      diatop.addEventListener('mouseover', function() {
+    diatop.addEventListener('mouseover', function() {
         // change image source on mouseover
         diatop.src = 'images/dia-alt.JPEG';
     }); 
