@@ -103,7 +103,7 @@
         document.querySelector('#overlay').className= 'showing';
         image.src = "images/fur-shorts.JPEG";
         item.innerHTML = "˚ ༘ ⋆ Fur-trimmed Shorts ૮ • ﻌ - ა";
-        itemtext.innerHTML = "These fur-trimmed shorts were hand-sewn by me over the summer. It was my first ever sewing project, and I had a lot of fun doing it! I was inspired by gyaru-slyle fur shorts. I was initially going to buy a pair, but all the ones I saw online were extremely overpriced so I decided to make them myself. I have made some more fur-trimmed shorts and skirts since but this one is my favorite out of all of them.";
+        itemtext.innerHTML = "These fur-trimmed shorts were hand-sewn by me over the summer. It was my first ever sewing project, and I had a lot of fun doing it! I made it with my roommate who taught me. I was inspired by gyaru-slyle fur shorts. I was initially going to buy a pair, but all the ones I saw online were extremely overpriced so I decided to make them myself. I have made some more fur-trimmed shorts and skirts since but this one is my favorite out of all of them.";
     });
 
     document.querySelector('#viv-necklace').addEventListener('click',function(event){
