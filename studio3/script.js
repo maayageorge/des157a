@@ -24,11 +24,10 @@
         document.getElementById('overlay').className = 'showing';
         start.remove();
         document.querySelector('article').innerHTML = `<h2>ㅤᵕ̈⸝⸝ How to Play</h2>
-        <p>There are two players. The player whose turn it is rolls the dice. The total of the roll does damage to the
-                other player's health, unless either die comes up as a "one". If this happens, this player's turn is over,
+        <p>There are two players. The player whose turn it is rolls the dice. The total of the roll increases the score of the chosen player, unless either die comes up as a "one". If this happens, this player's turn is over,
                 and it is the other player’s turn. After each roll, the current player can either roll again, (assuming a
                 "one" was not rolled) or if the current player feels that luck is running thin, they can pass to the other
-                player. The first player to get the other player to 0 health wins. Oh, and if you roll two "ones" (snake
+                player. The first player to get to get a score of 30 wins. Oh, and if you roll two "ones" (snake
                 eyes), your current score gets zeroed out. So don’t do that.</p>
          <button id="close">CLOSE</button>`
         document.querySelector('#close').addEventListener('click', function(){
