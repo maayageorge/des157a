@@ -1,6 +1,156 @@
 body{
-    background-image: url(images/game-on-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    font-family: 'Cute Font', sans-serif;
+    cursor: url(https://cur.cursors-4u.net/anime/ani-10/ani979.ani), url(https://cur.cursors-4u.net/anime/ani-10/ani979.png), auto !important;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Press Start 2P';
+    text-align: center;
+    font-size: 44px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+p{
+    font-size: 24px;
+}
+
+footer{
+    text-align: center;
+    font-size: 22px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+#rules {
+    text-align: left;
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto 50px auto;
+}
+
+#action {
+    max-width: 1000px;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    border: 2px solid #333;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 28px;
+}
+
+button{
+    font-size: 22px;
+}
+
+button:hover{
+    cursor: pointer;
+    cursor: url(https://cur.cursors-4u.net/anime/ani-10/ani977.ani), url(https://cur.cursors-4u.net/anime/ani-10/ani977.png), auto !important;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility: visible;
+    opacity: 1;
+}
+
+#overlay {
+    position: absolute;
+    background-color:rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#overlay article {
+    box-sizing: border-box;
+    background-color:#fff;
+    border-radius: 20px;
+    padding: 50px;
+    width: 50vw;
+    height: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow-y: scroll;
+}
+
+#gamecontrol {
+    text-align: center;
+}
+
+#game{
+    text-align: center;
+}
+
+#actions{
+    text-align: center;
+}
+
+.dice {
+    position: relative;
+    top: 95px;
+    max-width: 150px;
+    animation: diceFade 0.5s;
+}
+
+#score{
+    text-align: center;
+}
+
+#gamerules{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+}
+
+#gamerules:hover{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: black;
+    border: 2px solid black;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+
