@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- javascript -->
+    <script src="script.js" defer></script> 
+    <title>Game On!</title>
+</head>
+
+<body>
+    <header>
+        <h1>⭐ DOLL BATTLE ⭐</h1>
+    </header>
+
+    <section id="overlay" class="showing">
+        <article>
+            <h2>ㅤᵕ̈⸝⸝ How to Play</h2>
+            <p>There are two players. The player whose turn it is rolls the dice. The total of the roll increases the score of the chosen player, unless either die comes up as a "one". If this happens, this player's turn is over,
+                and it is the other player’s turn. After each roll, the current player can either roll again, (assuming a
+                "one" was not rolled) or if the current player feels that luck is running thin, they can pass to the other
+                player. The first player to get a score of 30 wins. Oh, and if you roll two "ones" (snake
+                eyes), your current score gets zeroed out. So don’t do that.</p>
+            <button id="continue" class="button">continue</button>
+        </article>
+    </section>
+
+
+        <div class="container">
+            <div id="gamecontrol">
+                <br>
+                <button id="startgame" class="button">start</button>
+                <button id="gamerules">rules</button>
+            </div>
+        </div>
+        
+    <div id="main">
+        <section id="angel">
+            <img src="images/angelimg.png" alt="angel" width="250">
+            <p id="score1" class="score">♱ score: 0 ₊ ⊹</p>
+        </section>
+
+        <section id="dice"></section>
+
+        <section id="devil">
+            <img src="images/devilimg.png" alt="devil" width="250">
+            <p id="score2" class="score">⛧ score: 0 ₊ ⊹</p>
+        </section>
+    </div>
+
+    <div id="game"></div>
+    <div id="actions"></div>
+    <div id="score"></div>
+    
+    <footer>
+        <a href="sources.html">[ sources ]</a>
+    </footer>
+
+</body>
+</html>
